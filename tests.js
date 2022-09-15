@@ -12,4 +12,16 @@ describe('helloWorld', function() {
     it("should never return 'undefined' when called", function() {
       expect(helloWorld()).not.toBe(undefined);
     });
+
+
+
+
+describe("say hello",function()
+{
+            it('should ', function ()
+            {
+                expect(typeof helloWorld).toBe("function");
+            } );
+}       )
+
 });
